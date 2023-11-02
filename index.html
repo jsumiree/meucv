@@ -26,7 +26,7 @@
 <body>
     <!--boton para alternar a navegacion movil-->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
-       <!--cabeçalho--> 
+       <!--cabeçalho, el cual estara al lado izquierdo--> 
     <header id="header">
         <div class="d-flex flex-column">
 
@@ -42,21 +42,36 @@
                     <a href="#"> <i class="bx bxl-whattsapp"></i></a>
                     <a href="#"> <i class="bx bxl-linkedin"></i></a>
                     <a href="#"> <i class="bx bxl-skype"></i></a>
+                    
                 </div>
                 
             </div>
             <!--menu navegacion-->
             <nav>
                 <ul><!--lista no ordenada, si usamos ol los enumera-->
-                    <li>Inicio</li><!--lista-->
-                    <li>Sobre</li>
-                    <li>Resumo</li>
-                    <li>Portfolio</li>
-                    <li>Contato</li>
+                    <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Inicio</span></a></li><!--lista-->
+                    <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>Sobre</span></a></li>
+                    <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span>Resumo</span></a></li>
+                    <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Portfolio</span></a></li>
+                    <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i><span>Serviços</span></a></li>
+                    <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contato</span></a></li>
+                    
                 </ul>
             </nav>
 
+
         </div>
     </header>
+    <!--HERO-->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+
+       
+        <h1>Gustavo Oliver Sumire</h1>
+        <p>Eu sou estudante de<span class="typed" data-type-items="Ciências da computação, Cloud, FRONT-END"></span></p>
+        
+        </div>
+
+    </section>
 </body>
 </html>
