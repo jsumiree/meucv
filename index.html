@@ -11,17 +11,17 @@
     <!--google fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 <!--CC bootstrap-->
-    <link rel="icon" href="img/favicon.png"><!--cambiar el icono del la pagina web-->
-    <link rel="stylesheet" href="validador/aos/aos.css">
-    <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="validador/boxicons/css/boxicons.css">
-    <link rel="stylesheet" href="validador/glightbox/css/glightbox.css">
-    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
+    <link href="img/favicon.png" rel="icon"><!--cambiar el icono del la pagina web-->
+    <link href="validador/aos/aos.css" rel="stylesheet">
+    <link href="validador/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="validador/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="validador/boxicons/css/boxicons.css" rel="stylesheet">
+    <link href="validador/glightbox/css/glightbox.css" rel="stylesheet">
+    <link href="validador/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!--base do css-->
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <!--boton para alternar a navegacion movil-->
@@ -35,11 +35,10 @@
                 <!--al hacer click en el nombre recargue la pagina-->
                 <h1 class="text-light"><a href="index.html">Juan Carlos Sumire</a></h1>
 
-                <div class="social-link mt-3 text-center">
+                <div class="social-links mt-3 text-center">
                     <a href="#"> <i class="bx bxl-twitter"></i></a>
                     <a href="#"> <i class="bx bxl-facebook"></i></a>
                     <a href="#"> <i class="bx bxl-instagram"></i></a>
-                    <a href="#"> <i class="bx bxl-whattsapp"></i></a>
                     <a href="#"> <i class="bx bxl-linkedin"></i></a>
                     <a href="#"> <i class="bx bxl-skype"></i></a>
                     
@@ -47,7 +46,7 @@
                 
             </div>
             <!--menu navegacion-->
-            <nav>
+            <nav id="navbar" class="nav-menu navbar">
                 <ul><!--lista no ordenada, si usamos ol los enumera-->
                     <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Inicio</span></a></li><!--lista-->
                     <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>Sobre</span></a></li>
@@ -68,10 +67,83 @@
 
        
         <h1>Gustavo Oliver Sumire</h1>
-        <p>Eu sou estudante de<span class="typed" data-type-items="Ciências da computação, Cloud, FRONT-END"></span></p>
+        <p>Eu sou estudante de <span class="typed" data-typed-items="Ciências da computação, Cloud, FRONT-END"></span></p>
         
         </div>
 
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <main id="main">
+        <section id="about" class="about">
+            <div class="section-title">
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ex temporibus aut aliquam porro reprehenderit dicta animi aspernatur hic, possimus voluptatum totam, voluptates unde facere, sint tenetur incidunt dolorem quia!
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="img/android-chrome-512x512.png" class="img-fluid" alt="" width="600px" height="600px">
+                </div>
+                <div class="col-lg-8 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Estudante Front-End</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptatem voluptatibus aliquid dolore id beatae fuga ullam mollitia earum, maxime culpa libero magni amet nobis, sapiente provident adipisci neque voluptates?
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i><strong>Aniversario:</strong><span>04 outubro 1996</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>Website:</strong><span>www.meusite.com</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>Telefone:</strong><span>(11) 985382420</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>Cidade:</strong><span>São Paulo - SP</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i><strong>Idade:</strong><span>27</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>Escolaridade:</strong><span>Tecnologo</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>E-mail:</strong><span>gustavosumireesquia@gmail.com</span></li>
+                            <li><i class="bi bi-chevron-right"></i><strong>Freelance:</strong><span>Disponível</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, soluta iusto eveniet autem itaque magnam omnis similique delectus quaerat corporis. Nemo, tempora ullam dolor animi magni officiis! Temporibus, alias consequatur.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!--validador do javascript-->
+    <script src="validador/purecounter/purecounter_vanilla.js"></script>
+    <script src="validador/aos/aos.js"></script>
+    <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="validador/glightbox/js/glightbox.min.js"></script>
+    <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="validador/swiper/swiper-bundle.min.js"></script>
+    <script src="validador/typed.js/typed.umd.js"></script>
+    <script src="validador/waypoints/noframework.waypoints.js"></script>
+    <!--script manual-->
+    <script src="js/main.js"></script>
 </body>
 </html>
