@@ -1,11 +1,11 @@
 /*escriturra general*/
 body {
     font-family: 'gaveat', cursive;
-    color: blueviolet;
+    color: rgb(128, 22, 228);
 
 }
 a {
-    color: rgb(0, 255, 34);
+    color: rgb(28, 228, 55);
     text-decoration: none;
 }
 a:hover {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6{
 }
 #header .profile h1 a, 
 #header .profile h1 a:hover{
-    color: #e13c3c;
+    color: #733ce1;
     text-decoration: none;
 }
 #header .profile .social-links a{
@@ -165,16 +165,16 @@ h1, h2, h3, h4, h5, h6{
     font-size: 60px;
     font-weight: 700;
     line-height: 56px;
-    color: #1fd273;
+    color: #edecf1;
 }
 #hero p{
-    color: #0feb72;
+    color: #85b40e;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: 'gaveat', cursive;
 }
 #hero p span{
-    color: #0ddb89;
+    color: #afd10a;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #2eafec;
@@ -244,9 +244,38 @@ section{
 .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #be2a2a;
+    color: #de1414;
     line-height: 0;
 }
 .about .content p:last-child{
     margin-bottom: 0;
+}
+/*hechos----fact----*/
+.facts {
+    padding-bottom: 30px;
+}
+.facts .count-box {
+    padding: 30px;
+    width: 100%;
+}
+.facts .count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+}
+.facts .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #85b40e;
+    margin-left: 60px;
+}
+.facts .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: 'gaveat', cursive;
+    color: #85b40e;
 }
