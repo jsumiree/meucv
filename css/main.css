@@ -359,15 +359,15 @@ section{
 .portfolio .portfolio-item {
     margin-bottom: 30px;
 }
-.portfolio .portfolio-filters {
+.portfolio #portfolio-filters {
     padding: 0;
     margin: 0 auto 35px auto;
     list-style: none;
     text-align: center;
-    background: white;
+    background: rgb(137, 83, 216);
     border-radius: 50px;
 }
-.portfolio .portfolio-filters li {
+.portfolio #portfolio-filters li {
     cursor: pointer;
     display: inline-block;
     padding: 10px 15px 8px 15px;
@@ -375,13 +375,13 @@ section{
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #2eaf2e;
+    color: #85d93b;
     margin-bottom: 5px;
     transition: all 0.35s ease-in-out;
 }
-.portfolio .portfolio-filters  li:hover,
-.portfolio .portfolio-filters li .filter-active {
-    color: #be2a2a;
+.portfolio #portfolio-filters  li:hover,
+.portfolio #portfolio-filters li .filter-active {
+    color: #160909;
 }
 .portfolio .portfolio-wrap {
     transition: 0.3s;
@@ -391,7 +391,7 @@ section{
 }
 .portfolio .portfolio-wrap::before {
     content: "";
-    background: #a07fe2;
+    background: #e5e4e9;
     position: absolute;
     left: 0;
     right: 0;
@@ -400,4 +400,40 @@ section{
     transition: all ease-in-out 0.3s;
     z-index: 2;
     opacity: 0;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+    opacity: 1;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+    color: #149ddd;
+    font-size: 20px;
+    text-align: center;
+    background: #2eaf2e;
+    transition: 0.3s;
+    width: 50%;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+    background: #596f79;
+}
+.portfolio .portfolio-wrap .portfolio-links a+a {
+    border-left: 1px solid #149ddd;
+}
+.portfolio .portfolio-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links {
+    opacity: 1;
+    bottom: 0;
 }
