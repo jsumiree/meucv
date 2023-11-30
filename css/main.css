@@ -391,7 +391,7 @@ section{
 }
 .portfolio .portfolio-wrap::before {
     content: "";
-    background: #e5e4e9;
+    background: #e4e2ea;
     position: absolute;
     left: 0;
     right: 0;
@@ -436,4 +436,88 @@ section{
 .portfolio .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
     bottom: 0;
+}
+/*services*/
+
+/*avaliações*/
+
+/*contato*/
+.contact {
+    padding-bottom: 130px;
+}
+.contact .info {
+    padding: 30px;
+    background: #fdfdfd;
+    width: 100%;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+.contact .info i {
+    font-size: 20px;
+    color: #2eafec;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #f7f8f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2c2f3f;
+}
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #596f79;
+}
+.contact .info .email p {
+    padding-top: 5px;
+}
+.contact .info .address:hover i,
+.contact .info .mail:hover i,
+.contact .info .phone:hover i {
+    background: #bfdb1f;
+    color: #6b5be7;
+}
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #e0eae0;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+.contact .php-email-form label {
+    padding-bottom: 8px;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+.contact .php-email-form input {
+    height: 44px;
+}
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+}
+.contact .php-email-form button[type=submit] {
+    background: #87cbeb;
+    border: 0;
+    padding: 10px 24px;
+    color: #193745;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.contact .php-email-form button[type=submit]:hover {
+    background: #54e954;
 }
